@@ -1,9 +1,15 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -13,6 +19,111 @@
     <p><b>Password</b><input type="password" placeholder="Enter password" name="password"/></p>
     <p><a href="">Forget password</a></p>
     <p><button>Login</p>
+    </form>
+    </center>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-image:url("https://t4.ftcdn.net/jpg/07/50/16/61/360_F_750166199_JQuq6cyPKS4rR9Q5tWivvtYMXlnW1N6r.jpg");
+           background-size: cover;
+        }
+        .container{
+            backdrop-filter: blur(5px);
+            margin: 50% auto 0% auto;
+            width: 35%;
+            border: 1px solid white;
+            border-left-style:none ;
+            border-right-style: none;
+            text-align: center;
+            padding-bottom: 20px;
+            border-color: #00264d;;
+            font-family: monospace;
+            
+
+        }
+        .title{
+            font-size: 2rem;
+            color:#00264d;
+        }
+        .form-group{
+            margin: 20px 0px;
+        }
+
+        .form-group input{
+            padding: 10px;
+            width: 25%;
+            background-color: inherit;
+            border: none;
+            border-width: 2px;
+            border-bottom-style:solid ;
+            outline: none;
+
+        }
+        .form-group input::placeholder{
+            color:#00264d;
+
+        }
+        .form-checkbox{
+            width: 80%;
+            margin: auto;
+
+        }
+        .form-checkbox a{
+            text-decoration: none;
+            color:#00264d;
+            margin-left: 50px;
+
+        }
+        .form-group button{
+            background-color: #00264d;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 10%;
+            cursor: pointer;
+        }
+
+        /* colour change */
+        /* p,input::placeholder{
+            color: white !important;
+        } */
+        
+    </style>
+</head>
+<body>
+    <center>
+    <form action="biopic.html">
+    <form class="container">
+       
+        <p class="title">User Login</p>
+        <div class="form-group">
+            <input 
+            type="email" 
+            placeholder="Email Id" 
+            name="email"/>
+            
+        </div>
+        <div class="form-group">
+            <input 
+            type="password" 
+            placeholder="Password" 
+            name="password"/>
+        </div>
+        <div class="form-checkbox">
+            <input type="checkbox"/> Remember Me
+            <a href="">Forgot Password</a>
+        </div>
+        <div class="form-group">
+            <button>LOGIN</button>
+        </div>
+    </form>
     </form>
     </center>
 </body>

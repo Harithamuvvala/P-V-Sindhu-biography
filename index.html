@@ -4,48 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/clipboard-with-ribbons-candles_23-2147628613.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: cover;
+        }
+        
+        
+        
+    </style>
 </head>
 <body>
+   <center>
     <form action="login.html">
+        <form class="container">
+        
         <h1 align="center">Registration Form</h1>
        
-        <p><b>Name</b>
+        <p class="form-group">
             <input type="text" placeholder="Enter your Name" name="name"/>
         </p>
         
-        <p><b>Email</b>
+        <p class="form-group">
             <input type="email" placeholder="Enter your email" name="email"/>
         </p>
        
-        <p><b>Password</b>
+        <p class="form-group">
             <input type="password" placeholder="Enter your password" name="password"/>
         </p>
         
-        <p><b>Confirm password</b>
+        <p class="form-group">
             <input type="password" placeholder="Enter confirm password" name="password"/>
         </p>
         
-        <p><b>Phone number</b>
+        <p class="form-group">
             <input type="number" placeholder="Enter Phone Number" name="number">
         </p>
         
-        <p><b>Gender</b>
+        <p class="form-group">
             <input type="radio" name="gender"/>Male
             <input type="radio" name="gender"/>Female
         </p>
         
-        <p><b>Education</b>
+        <p class="form-group">
             <input type="checkbox" name="education"/>10th
             <input type="checkbox" name="education"/>Inter
             <input type="checkbox" name="education"/>Diploma
             <input type="checkbox" name="education"/>B.Tech
         </p>
       
-        <p><b>File</b>
+        <p class="form-group">
             <input type="file"/>
         </p>
         
-        <p><b>City</b>
+        <p class="form-group">
             <select >
 
                 <option value="">Select Your City</option>
@@ -57,7 +69,10 @@
 
         </p>
         
-        <p><b>Submit</b><button>Submit</button></p>
+        <p class="form-group"><button>Submit</button></p>
     </form>
+    </form>
+    </center>
+   
 </body>
 </html>
